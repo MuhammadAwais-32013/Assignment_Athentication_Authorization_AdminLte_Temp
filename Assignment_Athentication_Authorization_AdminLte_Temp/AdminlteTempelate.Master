@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminlteTempelate.master.cs" Inherits="Assignment_Athentication_Authorization_AdminLte_Temp.AdminlteTempelate" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <title>AdminLTE Template</title>
+    <!-- Required CSS -->
+    <link rel="stylesheet" href="Content/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="Content/dist/css/adminlte.min.css">
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+
+
+    <form id="form1" runat="server">
+
+            <!-- Navbar, Sidebar, Content Placeholder, etc. -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       
+    </form>
+
+
+
+    <!-- Required JS -->
+    <script src="Content/plugins/jquery/jquery.min.js"></script>
+    <script src="Content/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Content/dist/js/adminlte.min.js"></script>
+</body>
+</html>
